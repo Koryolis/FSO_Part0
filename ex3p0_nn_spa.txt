@@ -1,0 +1,15 @@
+Note over Browser : 
+
+Using the code in the spa.js file, the Browser create a new element to the list of notes 
+and 
+sends the new note to the Server in the JSON format (content and date)
+
+end note
+
+Browser -> Server : HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over Server : 
+
+The Server add the new note in the data.json file
+
+end note
